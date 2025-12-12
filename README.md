@@ -1,10 +1,10 @@
 # Learning Journey
 
-Registro do meu aprendizado através de estudo analógico: papel, caneta e livros, com auxílio da IA para resumos e sugestões de melhoria.
+Registro do meu aprendizado através de estudo analógico: papel, caneta e livros. Eventualmente cursos digitais podem complementar, mas o foco permanece em estudos sem tecnologia durante as sessões de aprendizado. IA auxilia apenas na fase de revisão para gerar resumos e sugestões de melhoria.
 
-## Como funciona
+## Como Funciona
 
-1. Estudo um tópico usando apenas papel, caneta e livros
+1. Estudo um tópico usando principalmente papel, caneta e livros (ocasionalmente cursos digitais)
 2. Digitalizo minhas anotações em PDF
 3. Uso IA para gerar resumo e sugestões de melhoria
 4. Centralizo tudo aqui para tornar meu progresso visível e mensurável
@@ -15,10 +15,10 @@ learning-journey/
 │   
 ├── [tema]/
 │   ├── notes/
-│   │   ├── [tema]-#[n]-[livro]-(dd-mm-yyyy).pdf
+│   │   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf
 │   │   └── (...)
 │   │   
-│   ├── [tema]-#[n]-[livro]-(dd-mm-yyyy).md
+│   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).md
 │   └── (...) 
 │
 ├── prompts/
@@ -30,23 +30,25 @@ learning-journey/
 ## Convenções de Nomenclatura
 
 ### Pastas de Temas
+
 - Nome em minúsculas com hífens: `wordpress-woocommerce`, `linux`
 - Um tema = uma pasta
 
 ### Arquivos
-**Formato:** `[tema]-#[n]-[livro]-(dd-mm-yyyy)`
+
+**Formato:** `[tema]-#[n]-[fonte]-(dd-mm-yyyy)`
 
 - **[tema]**: nome do tema da pasta
 - **#[n]**: número sequencial do estudo (#1, #2, #3...)
-- **[livro]**: nome curto do livro/fonte
+- **[fonte]**: nome curto do livro ou curso
 - **(dd-mm-yyyy)**: data do estudo
 
 **Exemplo:**
 ```
 linux/
 ├── notes/
-│   └── linux-#1-Linux_A_Biblia-(11-12-2025).pdf
-└── linux-#1-Linux_A_Biblia-(11-12-2025).md
+│   └── linux-#1-Linux_A_Biblia-(11-12-2024).pdf
+└── linux-#1-Linux_A_Biblia-(11-12-2024).md
 ```
 
 ### Estrutura do Resumo
@@ -56,21 +58,23 @@ Cada arquivo `.md` deve seguir:
 # [Tema] - Estudo #[n]
 
 **Data:** dd/mm/yyyy  
-**Fonte:** [Nome_do_livro]  
-**PDF:** [notes/[tema]-#[n]-[livro]-(dd-mm-yyyy).pdf](notes/[tema]-#[n]-[livro]-(dd-mm-yyyy).pdf)
+**Fonte:** [Nome completo do livro ou curso]  
+**PDF:** [notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf](notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf)
 
-## Estrutura dos resumos da IA
+## Resumo da IA
 
-1. Resumo
+[Resumo gerado pela IA]
 
-2. Pontos de atenção e sugestões
+## Pontos de Atenção e Sugestões
 
+[Pontos de atenção e sugestões da IA]
+```
 
 ## Fluxo de Trabalho
 
-1. Estuda e anota em papel
-2. Digitaliza → salva em `[tema]/notes/[tema]-#[n]-[livro]-(dd-mm-yyyy).pdf`
-3. Usa prompt padrão da pasta `prompts/` → gera `[tema]/[tema]-#[n]-[livro]-(dd-mm-yyyy).md`
+1. Estuda e anota em papel (ou acompanha curso fazendo anotações)
+2. Digitaliza → salva em `[tema]/notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf`
+3. Usa prompt padrão da pasta `prompts/` → gera `[tema]/[tema]-#[n]-[fonte]-(dd-mm-yyyy).md`
 4. Verifica se o link no resumo aponta corretamente para o PDF
 5. Commit: `feat([tema]): adiciona estudo #[n]`
 
@@ -82,7 +86,7 @@ Cada arquivo `.md` deve seguir:
 
 ## Progresso
 
-**Iniciado em:** [DATA]
+**Iniciado em:** dezembro/2024
 
 ---
 
