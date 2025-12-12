@@ -56,7 +56,7 @@ Cada arquivo `.md` deve seguir:
 # [Tema] - Estudo #[n]
 
 **Data:** dd/mm/yyyy  
-**Fonte:** [Nome completo do livro]  
+**Fonte:** [Nome_do_livro]  
 **PDF:** [notes/[tema]-#[n]-[livro]-(dd-mm-yyyy).pdf](notes/[tema]-#[n]-[livro]-(dd-mm-yyyy).pdf)
 
 ## Estrutura dos resumos da IA
