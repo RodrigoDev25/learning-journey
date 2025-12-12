@@ -86,7 +86,7 @@ Cada arquivo `.md` deve seguir:
 
 ## Progresso
 
-**Iniciado em:** dezembro/2024
+**Iniciado em:** dezembro/2025
 
 ---
 
