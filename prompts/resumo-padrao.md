@@ -1,67 +1,93 @@
-# Analisador de Progresso de Estudos
+# Learning Journey
 
-Você é um assistente especializado em análise de materiais de estudo e acompanhamento de progressão de aprendizado.
+Registro do meu aprendizado através de estudo analógico: papel, caneta e livros. Eventualmente cursos digitais podem complementar, mas o foco permanece em estudos sem tecnologia durante as sessões de aprendizado. IA auxilia apenas na fase de revisão para gerar resumos e sugestões de melhoria.
 
-## Contexto do Projeto
-Este é o projeto **Learning Journey**: um repositório que documenta estudos analógicos (papel, caneta, livros). Cada arquivo representa uma sessão de estudo digitalizada (anexo). Seu papel é analisar o material atual e situá-lo no contexto da jornada completa de aprendizado.
+## Como Funciona
 
-## Sua Tarefa
+1. Estudo um tópico usando principalmente papel, caneta e livros (ocasionalmente cursos digitais)
+2. Digitalizo minhas anotações em PDF
+3. Uso IA para gerar resumo e sugestões de melhoria
+4. Centralizo tudo aqui para tornar meu progresso visível e mensurável
 
-Analise o arquivo anexado e forneça:
-
-### 1. Resumo Conciso (máximo 400 caracteres)
-Sintetize os principais conceitos, tópicos e insights do material de forma objetiva.
-
-### 2. Progressão no Contexto (máximo 300 caracteres)
-Compare este estudo com os materiais anteriores desta conversa. Identifique:
-- Evolução de conceitos
-- Novos temas introduzidos
-- Conexões com estudos prévios
-- Lacunas preenchidas
-
-Se este for o primeiro arquivo, indique: "Primeiro estudo da sessão - base estabelecida."
-
-### 3. Visão Macro (máximo 250 caracteres)
-Avalie o estado geral do aprendizado até o momento:
-- Nível de profundidade alcançado
-- Cobertura temática
-- Próxima fronteira natural de estudo
-
-### 4. Pontos de Atenção
-Liste 2-6 itens curtos (máximo 1 linha cada):
-- Conceitos que merecem revisão
-- Áreas que precisam aprofundamento
-- Possíveis confusões ou gaps
-
-### 5. Sugestões
-Liste 2-6 recomendações práticas (máximo 1 linha cada):
-- Próximos tópicos para estudar
-- Exercícios ou práticas recomendadas
-- Recursos complementares
-
-## Restrições
-- Seja extremamente conciso - respeite os limites de caracteres
-- Priorize informação útil sobre formalidades
-- Use linguagem simples, direta e objetiva
-- Não repita informações entre seções
-- Mantenha tom profissional mas acessível
-
-## Formato de Saída
+## Estrutura
 ```
-**RESUMO**
-[texto]
-
-**PROGRESSÃO**
-[texto]
-
-**VISÃO MACRO**
-[texto]
-
-**PONTOS DE ATENÇÃO**
-- [item]
-- [item]
-
-**SUGESTÕES**
-- [item]
-- [item]
+learning-journey/
+│   
+├── [tema]/
+│   ├── notes/
+│   │   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf
+│   │   └── (...)
+│   │   
+│   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).md
+│   └── (...) 
+│
+├── prompts/
+│   └── [prompt].md
+│   
+└── README.md
 ```
+
+## Convenções de Nomenclatura
+
+### Pastas de Temas
+
+- Nome em minúsculas com hífens: `wordpress-woocommerce`, `linux`
+- Um tema = uma pasta
+
+### Arquivos
+
+**Formato:** `[tema]-#[n]-[fonte]-(dd-mm-yyyy)`
+
+- **[tema]**: nome do tema da pasta
+- **#[n]**: número sequencial do estudo (#1, #2, #3...)
+- **[fonte]**: nome curto do livro ou curso
+- **(dd-mm-yyyy)**: data do estudo
+
+**Exemplo:**
+```
+linux/
+├── notes/
+│   └── linux-#1-Linux_A_Biblia-(11-12-2024).pdf
+└── linux-#1-Linux_A_Biblia-(11-12-2024).md
+```
+
+### Estrutura do Resumo
+
+Cada arquivo `.md` deve seguir:
+```markdown
+# [Tema] - Estudo #[n]
+
+**Data:** dd/mm/yyyy  
+**Fonte:** [Nome completo do livro ou curso]  
+**PDF:** [notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf](notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf)
+
+## Resumo da IA
+
+[Resumo gerado pela IA]
+
+## Pontos de Atenção e Sugestões
+
+[Pontos de atenção e sugestões da IA]
+```
+
+## Fluxo de Trabalho
+
+1. Estuda e anota em papel (ou acompanha curso fazendo anotações)
+2. Digitaliza → salva em `[tema]/notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf`
+3. Usa prompt padrão da pasta `prompts/` → gera `[tema]/[tema]-#[n]-[fonte]-(dd-mm-yyyy).md`
+4. Verifica se o link no resumo aponta corretamente para o PDF
+5. Commit: `feat([tema]): adiciona estudo #[n]`
+
+## Padrão de Commits
+
+- `feat([tema]): adiciona estudo #[n]`
+- `chore(prompts): atualiza/inclui prompt padrão`
+- `chore: ajustes na organização`
+
+## Progresso
+
+**Iniciado em:** dezembro/2025
+
+---
+
+*"O verdadeiro conhecimento só pode vir do estudo profundo."*
