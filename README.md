@@ -4,10 +4,12 @@ Registro do meu aprendizado através de estudo analógico: papel, caneta e livro
 
 ## Como Funciona
 
-1. Estudo um tópico usando principalmente papel, caneta e livros (ocasionalmente cursos digitais)
-2. Digitalizo minhas anotações em PDF
-3. Uso IA para gerar resumo e sugestões de melhoria
-4. Centralizo tudo aqui para tornar meu progresso visível e mensurável
+1. Executo o prompt 'roteiro-de-aprendizado' apresentando o tema de estudo;
+2. Crio o arquivo '#Plano-de-estudo.md' na pasta do tema;
+2. Estudo o tema conforme o plano de estudo, utilizando principalmente papel, caneta e os livros recomendados(ocasionalmente cursos digitais);
+2. Digitalizo minhas anotações em PDF;
+3. Uso IA para gerar resumo e sugestões de melhoria;
+4. Centralizo tudo aqui para tornar meu progresso visível e mensurável.
 
 ## Estrutura
 ```
@@ -17,7 +19,9 @@ learning-journey/
 │   ├── notes/
 │   │   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf
 │   │   └── (...)
-│   │   
+|   |
+│   │── [#Plano-de-estudo.md]
+|   |   
 │   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).md
 │   └── (...) 
 │
@@ -48,6 +52,9 @@ learning-journey/
 linux/
 ├── notes/
 │   └── linux-#1-Linux_A_Biblia-(11-12-2024).pdf
+|
+|── #Plano-de-estudo.md
+|    
 └── linux-#1-Linux_A_Biblia-(11-12-2024).md
 ```
 
