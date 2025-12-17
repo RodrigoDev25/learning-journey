@@ -1,155 +1,111 @@
-# **Plano de Estudos Linux **
+Jornada: Linux
+Nível inicial: Leigo absoluto (sem conhecimento prévio)
+Nível final: Avançado
+Idioma: Português do Brasil
 
----
+LIVROS
+Livro 1: Linux Para Leigos
 
-## **Livros Utilizados**
-1. **Fundamentos de Sistemas Operacionais** – Silberschatz  
-2. **Guia Foca Linux** – Gleydson Mazioli  
-3. **Linux: A Bíblia** – Christopher Negus  
+Autor: Richard Blum
+Editora: Alta Books
+Idioma: Português do Brasil
+Nível: Leigo/Iniciante
+Onde comprar: Amazon.com.br / Mercado Livre / Livrarias físicas
+Por que este livro: Perfeito para quem nunca usou Linux, com linguagem simples e explicações passo a passo desde a instalação
+O que ensina: Instalação, interface gráfica, comandos básicos, sistema de arquivos, uso doméstico
+Pré-requisito: Nenhum
 
----
+Livro 2: Fundamentos de Sistemas Operacionais
 
-# **Metodologia de Estudo**
+Autor: Abraham Silberschatz, Peter Baer Galvin, Greg Gagne
+Editora: LTC Editora
+Idioma: Português do Brasil
+Nível: Intermediário
+Onde comprar: Amazon.com.br / Estante Virtual / Livrarias universitárias
+Por que este livro: Fornece base teórica sólida sobre como sistemas operacionais funcionam internamente, preparando para administração avançada
+O que ensina: Processos, gerenciamento de memória, sistemas de arquivos, concorrência, segurança
+Pré-requisito: Livro 1
 
----
+Livro 3: Linux: A Bíblia
 
-## **1. Técnica de Leitura – “Conceito → Sintaxe → Mecanismo”**
+Autor: Christopher Negus
+Editora: Alta Books
+Idioma: Português do Brasil
+Nível: Avançado
+Onde comprar: Amazon.com.br / Mercado Livre / Estante Virtual
+Por que este livro: Guia profissional completo para se tornar administrador de sistemas Linux e obter certificações
+O que ensina: Administração de servidores, linha de comando avançada, segurança, redes, virtualização
+Pré-requisito: Livros 1 e 2
 
-Para cada assunto estudado, siga estes três passos:
+Ordem de Progressão:
+Livro 1 → Livro 2 → Livro 3
+Essa progressão leva você do uso básico doméstico (Livro 1), passa pela compreensão profunda de como sistemas operacionais funcionam (Livro 2), e termina com habilidades profissionais de administração Linux (Livro 3).
 
-1. **Conceito:** entenda o que é e qual problema resolve.  
-2. **Sintaxe:** escreva à mão os comandos, opções e exemplos.  
-3. **Mecanismo:** descreva como aquilo funciona por dentro  
-   (processos, kernel, permissões, diretórios etc.).
+MÉTODO DE ESTUDO
+Método Camada por Camada
+Ideia: Construir conhecimento em Linux como camadas: primeiro você usa, depois entende como funciona, e finalmente domina completamente.
+Passo a Passo
+1. Leitura
+Leia devagar, testando mentalmente cada conceito. No Livro 1, não se preocupe em memorizar tudo — foque em entender o conceito geral. No Livro 2, releia trechos difíceis quantas vezes precisar. No Livro 3, pratique mentalmente os comandos enquanto lê.
+2. Anotações
+Divida seu caderno em 3 seções: "Conceitos", "Comandos" e "Dúvidas". Na fase leiga (Livro 1), foque em desenhar a interface e anotar comandos básicos. Na fase intermediária (Livro 2), crie diagramas de processos e memória. Na fase avançada (Livro 3), monte tabelas de comparação entre diferentes abordagens.
+3. Fixação
+Fase Leiga: Crie cartões com comandos de um lado e função do outro. Desenhe o sistema de arquivos como árvore.
+Fase Intermediária: Faça diagramas de como processos interagem, desenhe fluxos de gerenciamento de memória.
+Fase Avançada: Crie mapas mentais conectando serviços, segurança e administração. Monte tabelas de troubleshooting.
+4. Prática
+Fase Leiga: Escreva à mão sequências de comandos para tarefas simples (criar pasta, copiar arquivo). Simule navegação em pastas no papel.
+Fase Intermediária: Resolva os exercícios do livro no papel, desenhando estados de memória e processos.
+Fase Avançada: Planeje no papel configurações completas de servidores, scripts de automação, estratégias de backup.
+5. Avaliação
+Nível Leigo: Consigo explicar o que é Linux? Sei listar 10 comandos básicos de cor? Entendo o sistema de arquivos?
+Nível Intermediário: Consigo desenhar como um processo funciona? Explico gerenciamento de memória sem consultar?
+Nível Avançado: Consigo planejar uma infraestrutura completa? Resolvo problemas complexos de servidor no papel?
 
-**Regra principal:**  
-> Só siga adiante quando conseguir explicar o conteúdo em voz alta **sem olhar o livro**.
+CRONOGRAMA
+Total: 12 meses | 3h/dia
+Mês 1-4: Fundamentos para Leigos
+Livro: Linux Para Leigos | Capítulos: Todos (instalação, interface, comandos básicos, aplicativos) | Meta: Usar Linux com confiança no dia a dia, conhecer comandos essenciais, entender estrutura de pastas
+Mês 5-8: Compreensão Teórica Intermediária
+Livro: Fundamentos de Sistemas Operacionais | Capítulos: 1-10, 15-16 (foco em conceitos de SO, processos, memória, arquivos, segurança) | Meta: Entender profundamente como Linux funciona internamente, dominar teoria de sistemas operacionais
+Mês 9-12: Domínio Profissional Avançado
+Livro: Linux: A Bíblia | Capítulos: Todos (foco em administração, linha de comando avançada, servidores, segurança) | Meta: Administrar servidores Linux profissionalmente, preparação para certificações, domínio completo
+Progressão de conhecimento:
 
----
+Início: Nunca usou terminal, não sabe o que é distribuição, considera computador uma "caixa mágica"
+Meio: Compreende arquitetura de sistemas, sabe como processos e memória funcionam, entende design de SO
+Fim: Administra servidores em produção, automatiza tarefas complexas, resolve problemas críticos, pronto para certificações profissionais
 
-## **2. Sistema de Anotações – Organize seu caderno em 3 partes**
 
-### **Parte 1 — Conceitos**
-- Definições simples  
-- Desenhos e diagramas  
-- Ideias principais do capítulo
+REVISÃO MENSAL
+Seu PDF do mês deve ter:
 
-### **Parte 2 — Tabela de Comandos**
-Formato sempre igual:
-comando | o que faz | parâmetros | exemplo escrito à mão
+Anotações organizadas (conceitos, comandos, diagramas)
+Exercícios resolvidos
+Dúvidas que teve
+Sua autoavaliação
+Glossário de termos novos aprendidos (crítico nos primeiros meses)
+Comandos que memorizou (Livro 1) ou diagramas que criou (Livros 2 e 3)
 
-yaml
-Copiar código
+A IA vai ver:
 
-### **Parte 3 — Cenários e Mini-Labs no Papel**
-Sempre responda:
-> “O que eu faria se…?”
+Se entendeu os conceitos fundamentais
+Se a progressão está adequada ao seu ritmo
+Onde melhorar
+Como ajustar o método
+Se está pronto pro próximo mês
+Se precisa revisar antes de avançar (especialmente na transição do Livro 1 para o Livro 2)
 
-Depois escreva o passo a passo para resolver o problema.
 
----
+Próximos passos:
 
-## **3. Sínteses Semanais (para fixar o conteúdo)**
+Compre o Livro 1: Linux Para Leigos (comece por este - você não precisa comprar todos de uma vez)
+Separe 3 cadernos (um para cada livro) e canetas coloridas
+Comece pelo Mês 1 (use o Linux no dia a dia enquanto estuda)
+No fim do mês: digitalize suas anotações em 1 PDF
+Envie para IA analisar
+Ajuste e siga
+Só compre o Livro 2 quando dominar o Livro 1 (após 4 meses)
+Só compre o Livro 3 quando dominar o Livro 2 (após 8 meses)
 
-Toda semana produza:
-
-- **1 mapa mental** do tema estudado  
-- **1 resumo de 1 página**, escrito de memória  
-- **1 diagrama**, como:
-  - fluxo de processos  
-  - estrutura de diretórios  
-  - sequência de boot  
-  - lógica de redes  
-
----
-
-## **4. Exercícios Práticos (Sem Computador)**
-
-- **Simular terminal:** escrever um comando, prever a saída e explicar.  
-- **Desenhar diretórios:** `/etc`, `/var`, `/usr` e seus propósitos.  
-- **Criar scripts no papel:** do básico ao avançado.  
-- **Resolver problemas comuns**, como:
-  - usuário sem permissão  
-  - serviço que não inicia  
-  - rede sem resposta  
-
----
-
-## **5. Autoavaliação Mensal**
-
-Perguntas simples para medir progresso:
-
-- Consigo explicar o tema sem olhar as anotações?  
-- Dominei a sintaxe dos comandos estudados?  
-- Meu mapa mental é claro e completo?  
-- Resolvo cenários escritos sem hesitar?  
-- Encontrei pontos que ainda preciso revisar?
-
----
-
-# **Plano de Estudos (Resumo Ampliado)**
-
----
-
-## **Mês 1 – Fundamentos de Sistemas Operacionais**
-
-- **Objetivo:** entender como um sistema operacional funciona.  
-- **Conteúdo:** processos, memória, sistema de arquivos, segurança.  
-- **Entrega:** resumos + diagramas de processos e memória.  
-- **Marco:** explicar o funcionamento geral de um SO moderno.
-
----
-
-## **Mês 2 – Linux Essencial (Foca – Iniciante)**
-
-- **Objetivo:** aprender a usar o Linux no dia a dia.  
-- **Conteúdo:** shell, diretórios, permissões, processos, comandos básicos.  
-- **Entrega:** tabelas de comandos + desenhos da árvore de diretórios.  
-- **Marco:** resolver tarefas simples simulando um terminal no papel.
-
----
-
-## **Mês 3 – Administração Inicial (Foca – Intermediário)**
-
-- **Objetivo:** começar a administrar o sistema.  
-- **Conteúdo:** usuários, grupos, serviços, pacotes e rede básica.  
-- **Entrega:** mini-labs com problemas e soluções escritas.  
-- **Marco:** saber como configurar um servidor simples.
-
----
-
-## **Mês 4 – Administração Completa (Linux: A Bíblia – Parte I)**
-
-- **Objetivo:** dominar partes mais profundas do sistema.  
-- **Conteúdo:** systemd, processo de boot, serviços avançados, scripting.  
-- **Entrega:** diagramas do boot + scripts no papel.  
-- **Marco:** explicar todo o processo de inicialização do Linux.
-
----
-
-## **Mês 5 – Redes e Segurança (Linux: A Bíblia – Parte II)**
-
-- **Objetivo:** aprender redes e segurança de forma prática.  
-- **Conteúdo:** rede avançada, firewall, logs, segurança do sistema.  
-- **Entrega:** fluxos de pacotes + tabelas de firewall.  
-- **Marco:** mostrar como proteger um servidor Linux.
-
----
-
-## **Mês 6 – Automação e Consolidação (Linux: A Bíblia – Parte III)**
-
-- **Objetivo:** operar Linux em nível avançado.  
-- **Conteúdo:** automação, serviços críticos, monitoramento e otimização.  
-- **Entrega:** diagramas de serviços + automações no papel.  
-- **Marco:** planejar a administração completa de um servidor.
-
----
-
-# **Checkpoint Final – Domínio Avançado**
-
-Você terá concluído a jornada quando conseguir:
-
-- Explicar todos os subsistemas do Linux sem consultar livros  
-- Resolver problemas avançados apenas por escrita  
-- Criar scripts funcionais no papel  
-- Desenhar arquiteturas completas de serviços e servidores  
+Boa jornada! Em 12 meses você sairá de leigo absoluto para administrador Linux profissional!
