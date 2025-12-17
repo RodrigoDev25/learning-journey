@@ -1,4 +1,4 @@
-# **Plano de Estudos Linux**
+# **Plano de Estudos Linux **
 
 ---
 
@@ -9,73 +9,81 @@
 
 ---
 
-# **Metodologia de Estudo**  
-### *(Versão Resumida e Eficaz)*
+# **Metodologia de Estudo**
 
 ---
 
 ## **1. Técnica de Leitura – “Conceito → Sintaxe → Mecanismo”**
 
-Siga sempre esta ordem:
+Para cada assunto estudado, siga estes três passos:
 
-- **Conceito:** o que é, para que serve.  
-- **Sintaxe:** copie à mão comandos e parâmetros.  
-- **Mecanismo:** descreva em detalhes como funciona internamente.
+1. **Conceito:** entenda o que é e qual problema resolve.  
+2. **Sintaxe:** escreva à mão os comandos, opções e exemplos.  
+3. **Mecanismo:** descreva como aquilo funciona por dentro  
+   (processos, kernel, permissões, diretórios etc.).
 
-**Regra de ouro:**  
-> Só avance quando conseguir explicar o tópico em voz alta **sem consultar o livro**.
+**Regra principal:**  
+> Só siga adiante quando conseguir explicar o conteúdo em voz alta **sem olhar o livro**.
 
 ---
 
-## **2. Sistema de Anotações – Caderno em 3 Blocos**
+## **2. Sistema de Anotações – Organize seu caderno em 3 partes**
 
-### **Bloco 1: Conceitos Fundamentais**  
-Definições curtas, diagramas e modelos mentais.
+### **Parte 1 — Conceitos**
+- Definições simples  
+- Desenhos e diagramas  
+- Ideias principais do capítulo
 
-### **Bloco 2: Tabela de Comandos**  
-Formato fixo:  
-comando | função | parâmetros | exemplo manuscrito
+### **Parte 2 — Tabela de Comandos**
+Formato sempre igual:
+comando | o que faz | parâmetros | exemplo escrito à mão
 
 yaml
 Copiar código
 
-### **Bloco 3: Cenários e Mini-Labs (no papel)**  
-Pergunta fixa:  
-> “O que eu faria se…?”  
-E então descrever o passo a passo.
+### **Parte 3 — Cenários e Mini-Labs no Papel**
+Sempre responda:
+> “O que eu faria se…?”
+
+Depois escreva o passo a passo para resolver o problema.
 
 ---
 
-## **3. Sínteses Semanais**
+## **3. Sínteses Semanais (para fixar o conteúdo)**
 
-- **Mapa mental:** 1 por semana.  
-- **Resumo de 1 página:** reescrever de memória e comparar.  
-- **Diagramas:** processos, diretórios, boot, rede etc.
+Toda semana produza:
+
+- **1 mapa mental** do tema estudado  
+- **1 resumo de 1 página**, escrito de memória  
+- **1 diagrama**, como:
+  - fluxo de processos  
+  - estrutura de diretórios  
+  - sequência de boot  
+  - lógica de redes  
 
 ---
 
 ## **4. Exercícios Práticos (Sem Computador)**
 
-- **Simulação de terminal:** escrever comando + prever saída + justificar.  
-- **Reconstrução de diretórios:** desenhar `/etc`, `/var`, `/usr`…  
-- **Scripts no papel:** dos básicos aos avançados.  
-- **Problemas de administração:**  
-  - Usuário sem permissão  
-  - Serviço não inicia  
-  - Rede não responde  
-  - Etc.
+- **Simular terminal:** escrever um comando, prever a saída e explicar.  
+- **Desenhar diretórios:** `/etc`, `/var`, `/usr` e seus propósitos.  
+- **Criar scripts no papel:** do básico ao avançado.  
+- **Resolver problemas comuns**, como:
+  - usuário sem permissão  
+  - serviço que não inicia  
+  - rede sem resposta  
 
 ---
 
 ## **5. Autoavaliação Mensal**
 
-Checklist objetivo:
+Perguntas simples para medir progresso:
 
-- Consigo explicar este tema sem consulta?  
-- Sei a sintaxe e o propósito dos comandos estudados?  
-- Meu mapa mental do mês está coerente?  
-- Consigo resolver cenários escritos sem hesitar?  
-- Identifiquei lacunas para revisar?
+- Consigo explicar o tema sem olhar as anotações?  
+- Dominei a sintaxe dos comandos estudados?  
+- Meu mapa mental é claro e completo?  
+- Resolvo cenários escritos sem hesitar?  
+- Encontrei pontos que ainda preciso revisar?
 
 ---
 
@@ -85,65 +93,63 @@ Checklist objetivo:
 
 ## **Mês 1 – Fundamentos de Sistemas Operacionais**
 
-- **Objetivo:** entender como e por que o Linux funciona.  
-- **Conteúdo:** processos, threads, memória, sistemas de arquivos, segurança.  
-- **Entrega:** resumos por capítulo + diagramas de processos e memória.  
+- **Objetivo:** entender como um sistema operacional funciona.  
+- **Conteúdo:** processos, memória, sistema de arquivos, segurança.  
+- **Entrega:** resumos + diagramas de processos e memória.  
 - **Marco:** explicar o funcionamento geral de um SO moderno.
 
 ---
 
-## **Mês 2 – Linux Essencial (Foca – Nível Iniciante)**
+## **Mês 2 – Linux Essencial (Foca – Iniciante)**
 
-- **Objetivo:** dominar navegação e comandos básicos.  
-- **Conteúdo:** shell, diretórios, permissões, processos, comandos essenciais.  
-- **Entrega:** tabelas de comandos + árvores de diretórios desenhadas.  
-- **Marco:** simular um terminal no papel para resolver tarefas básicas.
+- **Objetivo:** aprender a usar o Linux no dia a dia.  
+- **Conteúdo:** shell, diretórios, permissões, processos, comandos básicos.  
+- **Entrega:** tabelas de comandos + desenhos da árvore de diretórios.  
+- **Marco:** resolver tarefas simples simulando um terminal no papel.
 
 ---
 
 ## **Mês 3 – Administração Inicial (Foca – Intermediário)**
 
-- **Objetivo:** introdução sólida à administração de sistemas.  
-- **Conteúdo:** usuários, grupos, pacotes, serviços e rede inicial.  
-- **Entrega:** mini-labs escritos (problemas e soluções).  
-- **Marco:** descrever como configurar um servidor do zero.
+- **Objetivo:** começar a administrar o sistema.  
+- **Conteúdo:** usuários, grupos, serviços, pacotes e rede básica.  
+- **Entrega:** mini-labs com problemas e soluções escritas.  
+- **Marco:** saber como configurar um servidor simples.
 
 ---
 
 ## **Mês 4 – Administração Completa (Linux: A Bíblia – Parte I)**
 
-- **Objetivo:** aprofundar no funcionamento avançado do sistema.  
-- **Conteúdo:** systemd, boot, serviços avançados, scripting.  
-- **Entrega:** diagramas completos de boot + scripts manuscritos.  
-- **Marco:** explicar todo o workflow de inicialização do Linux.
+- **Objetivo:** dominar partes mais profundas do sistema.  
+- **Conteúdo:** systemd, processo de boot, serviços avançados, scripting.  
+- **Entrega:** diagramas do boot + scripts no papel.  
+- **Marco:** explicar todo o processo de inicialização do Linux.
 
 ---
 
 ## **Mês 5 – Redes e Segurança (Linux: A Bíblia – Parte II)**
 
-- **Objetivo:** dominar aspectos críticos de redes e segurança.  
-- **Conteúdo:** rede avançada, firewall, logging, políticas de segurança.  
-- **Entrega:** diagramas de fluxo de pacotes + tabelas de firewall.  
-- **Marco:** demonstrar como proteger um servidor Linux.
+- **Objetivo:** aprender redes e segurança de forma prática.  
+- **Conteúdo:** rede avançada, firewall, logs, segurança do sistema.  
+- **Entrega:** fluxos de pacotes + tabelas de firewall.  
+- **Marco:** mostrar como proteger um servidor Linux.
 
 ---
 
-## **Mês 6 – Automação, Serviços e Consolidação (Linux: A Bíblia – Parte III)**
+## **Mês 6 – Automação e Consolidação (Linux: A Bíblia – Parte III)**
 
-- **Objetivo:** atingir nível operacional avançado.  
-- **Conteúdo:** automação, serviços essenciais, monitoramento, tuning.  
-- **Entrega:** diagramas de serviços + modelos de automação no papel.  
-- **Marco:** projetar a administração completa de um servidor.
-
----
-
-# **Checkpoint Final – Nível Avançado Confirmado**
-
-Você estará pronto quando conseguir:
-
-- Explicar todos os subsistemas do Linux sem consultar livros.  
-- Resolver cenários avançados por escrito.  
-- Criar scripts funcionais apenas no papel.  
-- Desenhar arquiteturas completas de serviços e administração.  
+- **Objetivo:** operar Linux em nível avançado.  
+- **Conteúdo:** automação, serviços críticos, monitoramento e otimização.  
+- **Entrega:** diagramas de serviços + automações no papel.  
+- **Marco:** planejar a administração completa de um servidor.
 
 ---
+
+# **Checkpoint Final – Domínio Avançado**
+
+Você terá concluído a jornada quando conseguir:
+
+- Explicar todos os subsistemas do Linux sem consultar livros  
+- Resolver problemas avançados apenas por escrita  
+- Criar scripts funcionais no papel  
+- Desenhar arquiteturas completas de serviços e servidores  
