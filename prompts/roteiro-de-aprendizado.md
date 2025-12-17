@@ -231,7 +231,7 @@ Crie um guia prático e específico de como estudar cada livro, adaptado ao cont
 
 * Máximo 3 livros
 * **Todos os livros em PORTUGUÊS DO BRASIL**
-* **Progressão clara: Leigo → Intermediário → Avançado**
+* **Progressão clara: Totalmente Leigo → Intermediário → Avançado**
 * **Livro 1 DEVE ser para leigos absolutos**
 * Livros reais e fáceis de comprar
 * **Guia de estudo específico para cada livro (5 passos concisos)**
