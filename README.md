@@ -1,100 +1,152 @@
 # Learning Journey
 
-Registro do meu aprendizado através de estudo analógico: papel, caneta e livros. Eventualmente cursos digitais podem complementar, mas o foco permanece em estudos sem tecnologia durante as sessões de aprendizado. IA auxilia apenas na fase de revisão para gerar resumos e sugestões de melhoria.
+> **Registro estruturado de aprendizado autodidata profundo, conduzido majoritariamente sem ferramentas digitais.**
+
+---
+
+## Visão Geral
+
+Este projeto documenta um processo de aprendizado autodidata conduzido majoritariamente sem o uso de ferramentas digitais. O estudo é realizado com papel, caneta e livros físicos, com exceções pontuais para alguns cursos. As anotações são analisadas por IA **exclusivamente na fase de revisão**, e o progresso é versionado com Git e mantido no GitHub.
+
+> **Uso de IA:** restrito à análise, síntese e sugestões de melhoria durante a revisão.
+
+---
+
+## Objetivo
+
+Documentar o progresso de estudo de forma **clara, rastreável e mensurável**. Este repositório registra um percurso real de aprendizado.
+
+---
 
 ## Como Funciona
 
-1. Executo o prompt 'roteiro-de-aprendizado' apresentando o tema de estudo;
-2. Crio o arquivo '#Plano-de-estudo.md' na pasta do tema;
-2. Estudo o tema conforme o plano de estudo, utilizando principalmente papel, caneta e os livros recomendados(ocasionalmente cursos digitais);
-2. Digitalizo minhas anotações em PDF;
-3. Uso IA para gerar resumo e sugestões de melhoria;
-4. Centralizo tudo aqui para tornar meu progresso visível e mensurável.
+1. Geração de plano de estudo por meio de prompt especializado
+2. Estudo com papel, caneta e livros físicos
+3. Digitalização das anotações manuscritas em PDF
+4. Análise do material pela IA e geração de resumo estruturado
+5. Registro e versionamento de todo o conteúdo no repositório
 
-## Estrutura
-```
+---
+
+## Estrutura do Repositório
+
+```text
 learning-journey/
-│   
-├── [tema]/
-│   ├── notes/
-│   │   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf
-│   │   └── (...)
-|   |
-│   │── [#Plano-de-estudo.md]
-|   |   
-│   ├── [tema]-#[n]-[fonte]-(dd-mm-yyyy).md
-│   └── (...) 
 │
 ├── prompts/
 │   └── [prompt].md
-│   
+│
+├── [tema]/
+│   ├── notes/
+│   │   └── [tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf
+│   │
+│   ├── #Plano-de-estudo.md
+│   └── [tema]-#[n]-[fonte]-(dd-mm-yyyy).md
+│
 └── README.md
 ```
 
-## Convenções de Nomenclatura
+---
 
-### Pastas de Temas
+## Nomenclatura
 
-- Nome em minúsculas com hífens: `wordpress-woocommerce`, `linux`
-- Um tema = uma pasta
+### Pastas
 
-### Arquivos
+* Letras minúsculas com hífens
+  Exemplos: `linux`, `wordpress-woocommerce`
+* Um tema por pasta
 
-**Formato:** `[tema]-#[n]-[fonte]-(dd-mm-yyyy)`
+### Arquivos de Estudo
 
-- **[tema]**: nome do tema da pasta
-- **#[n]**: número sequencial do estudo (#1, #2, #3...)
-- **[fonte]**: nome curto do livro ou curso
-- **(dd-mm-yyyy)**: data do estudo
+Formato:
+
+```
+[tema]-#[n]-[fonte]-(dd-mm-yyyy)
+```
+
+**Componentes:**
+
+* `[tema]` — nome da pasta
+* `#[n]` — número sequencial do estudo
+* `[fonte]` — nome curto do livro ou curso
+* `(dd-mm-yyyy)` — data da sessão de estudo
 
 **Exemplo:**
-```
+
+```text
 linux/
 ├── notes/
 │   └── linux-#1-Linux_A_Biblia-(11-12-2024).pdf
-|
-|── #Plano-de-estudo.md
-|    
+│
+├── #Plano-de-estudo.md
 └── linux-#1-Linux_A_Biblia-(11-12-2024).md
 ```
 
-### Estrutura do Resumo
+---
 
-Cada arquivo `.md` deve seguir:
+## Estrutura dos Arquivos de Revisão
+
+Cada sessão de estudo gera um arquivo `.md` padronizado, com apoio da IA:
+
 ```markdown
-# [Tema] - Estudo #[n]
+# [Tema] — Estudo #[n]
 
 **Data:** dd/mm/yyyy  
-**Fonte:** [Nome completo do livro ou curso]  
-**PDF:** [notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf](notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf)
+**Fonte:** [Nome completo]  
+**PDF:** [notes/[arquivo].pdf](notes/[arquivo].pdf)
 
-## Resumo da IA
+---
 
-[Resumo gerado pela IA]
+## Resumo
+[Síntese objetiva do conteúdo]
 
-## Pontos de Atenção e Sugestões
+---
 
-[Pontos de atenção e sugestões da IA]
+## Progressão
+[Evolução em relação a estudos anteriores]
+
+---
+
+## Visão Macro
+[Avaliação do estágio atual do aprendizado]
+
+---
+
+## Pontos de Atenção
+- [Conceitos que exigem revisão]
+- [Possíveis lacunas]
+
+---
+
+## Sugestões
+- [Próximos tópicos]
+- [Exercícios recomendados]
 ```
 
-## Fluxo de Trabalho
+---
 
-1. Estuda e anota em papel (ou acompanha curso fazendo anotações)
-2. Digitaliza → salva em `[tema]/notes/[tema]-#[n]-[fonte]-(dd-mm-yyyy).pdf`
-3. Usa prompt padrão da pasta `prompts/` → gera `[tema]/[tema]-#[n]-[fonte]-(dd-mm-yyyy).md`
-4. Verifica se o link no resumo aponta corretamente para o PDF
-5. Commit: `feat([tema]): adiciona estudo #[n]`
+## Fluxo com Git
 
-## Padrão de Commits
+1. Estudo e anotações em papel
+2. Digitalização → `notes/[arquivo].pdf`
+3. Análise via IA → `[arquivo].md`
+4. Verificação de links e consistência
+5. Commit semântico
 
-- `feat([tema]): adiciona estudo #[n]`
-- `chore(prompts): atualiza/inclui prompt padrão`
-- `chore: ajustes na organização`
+### Padrão de Commits
+
+* `feat([tema]): adiciona estudo #[n]`
+* `chore(prompts): atualiza prompt`
+* `chore: ajustes de organização`
+
+---
 
 ## Progresso
 
 **Iniciado em:** dezembro/2025
 
+Este repositório cresce de forma incremental, refletindo um processo de aprendizado **real, contínuo e verificável**.
+
 ---
 
-*"O verdadeiro conhecimento só pode vir do estudo profundo."*
+> *“O verdadeiro conhecimento nasce do estudo profundo e disciplinado.”*
