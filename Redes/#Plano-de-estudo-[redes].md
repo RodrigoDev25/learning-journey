@@ -15,7 +15,7 @@ Constrói do zero os conceitos práticos de redes para leigos: instalação, con
 Aprofunda nos protocolos e arquitetura das redes partindo das aplicações até a camada física.
 
 ### Livro 3 — Especialização
-**gitWetherall | Pearson/Bookman  
+**Redes de Computadores** - Tanenbaum
 Especializa com domínio completo da arquitetura, protocolos avançados, segurança e teoria profunda.
 
 **Progressão:** Prática operacional → Arquitetura top-down → Domínio teórico-prático completo (do "fazer funcionar" para "entender profundamente").
