@@ -1,0 +1,41 @@
+Seção 1 — Resumo da Obra
+Fundamentos de Sistemas Operacionais, de Silberschatz, Galvin e Gagne, é uma obra de referência técnica e acadêmica que explica como os sistemas operacionais funcionam por dentro. O livro cobre desde os conceitos mais básicos — como o que um sistema operacional faz e por que ele existe — até temas muito densos como gerenciamento de memória, escalonamento de processos, sistemas de arquivos e segurança. Cada capítulo é bem estruturado: apresenta o conceito, explica sua importância, mostra como ele funciona na prática e oferece exemplos de sistemas reais como Windows e Linux. É uma obra muito densa e técnica, por isso a leitura requer concentração e paciência. O melhor aproveitamento acontece quando o estudante não tenta reter tudo de uma vez, mas sim absorve cada tema com calma antes de seguir.
+
+Seção 2 — Mapa de Prioridades
+Essencial: Os capítulos sobre introdução aos sistemas operacionais, estrutura do sistema operacional, processos, escalonamento de CPU e gerenciamento de memória. Esses são os pilares que sustentam todo o resto do libro. Sem dominar esses temas, os capítulos seguintes ficam muito mais difíceis de acompanhar.
+Importante: Os capítulos sobre sincronização de processos, deadlocks, sistemas de arquivos e gerenciamento de dispositivos de entrada e saída. Eles mostram como os temas anteriores funcionam na prática dentro de um sistema operacional real e são muito importantes para uma compreensão completa.
+Complementar: Os capítulos sobre segurança, proteção, sistemas distribuídos e temas mais especializados. Enriquecem muito o conhecimento, mas podem ser tratados com mais calma e não são necessários para entender a base da obra.
+
+Seção 3 — Cronograma de Leitura
+Como o livro é muito denso e técnico, o ritmo deve ser lento e deliberado. Cada capítulo precisa ser bem digerido antes de avançar. Não acelere.
+Dias 1 e 2: Introdução aos sistemas operacionais e por que eles existem. Cerca de 20 páginas por dia. Esse bloco é mais conceitual e serve como base para tudo que vem depois.
+Dias 3 e 4: Estrutura do sistema operacional e como suas partes se relacionam. Cerca de 18 páginas por dia. Vale desenhar essa estrutura no seu caderno para ter uma referência visual.
+Dias 5 a 7: Processos — o que são, como são criados e como são gerenciados. Cerca de 15 páginas por dia. Esse tema é muito importante e vale pausar entre as seções para processar.
+Dias 8 e 9: Escalonamento de CPU — como o sistema operacional decide qual processo rodar e quando. Cerca de 18 páginas por dia. Há vários tipos de escalonamento e é fácil misturá-los — anote as diferenças durante a leitura.
+Dias 10 a 12: Sincronização de processos e deadlocks. Cerca de 15 páginas por dia. Esse bloco é um dos mais complexos do livro e merecem atenção dobrada.
+Dias 13 a 15: Gerenciamento de memória. Cerca de 15 páginas por dia. Outro tema muito denso — não avance até sentir que entendeu bem cada conceito apresentado.
+Dias 16 e 17: Sistemas de arquivos e gerenciamento de dispositivos. Cerca de 20 páginas por dia. Esse bloco é importante mas tende a ser mais fluido, pois a base já está bem consolidada.
+Dias 18 e 19: Segurança, proteção e capítulos finais. Leitura mais leve, sem pressão de tempo.
+
+Seção 4 — Como Anotar
+Como o livro apresenta muitos conceitos técnicos que parecem parecidos mas têm diferenças importantes entre si, as anotações devem ser voltadas para criar clareza entre esses conceitos.
+Ao final de cada capítulo, escreva no seu caderno um resumo breve do tema principal e dos conceitos mais importantes apresentados, sempre com suas próprias palavras. Não copie do livro. Essa lista vai ser sua principal referência na hora da revisão.
+Todas as vezes que o livro apresentar mais de um tipo de algo — como tipos de escalonamento, tipos de gerenciamento de memória ou tipos de sistemas de arquivos — crie uma tabela simples no seu caderno comparando cada tipo. Escreva o nome de cada um, o que ele faz e em que situação ele é usado. Essa prática evita que os tipos se confundam na sua memória.
+Sempre que um conceito parecer confuso ou muito abstrato, desenhe no seu caderno como ele funciona visualmente. Por exemplo, quando o livro explicar como o escalonamento de CPU funciona, desenhe os processos esperando e o que acontece quando um deles é escolhido para rodar. Desenhar é muito mais eficaz do que reler para entender temas técnicos como esses.
+Crie uma página no seu caderno para um glossário de termos técnicos importantes — como "processo", "thread", "deadlock", "página de memória", "escalonamento" e "sistema de arquivos". A cada vez que um termo parecer confuso, anote a sua própria definição depois de entender melhor.
+
+Seção 5 — Exercícios Após a Leitura
+Após cada capítulo, feche o livro e tente explicar por escrito, com suas próprias palavras, qual problema o tema apresentado resolve e por que ele existe dentro de um sistema operacional. Por exemplo, após o capítulo sobre deadlocks, escreva por que deadlocks acontecem e qual a consequência quando um sistema operacional não sabe como lidar com eles. Isso testa se você entendeu não apenas o conceito, mas também sua importância.
+A cada dois capítulos, pause e faça um exercício de conexão: escreva como os temas dos dois últimos capítulos se relacionam entre si dentro de um sistema operacional real. Por exemplo, como o gerenciamento de memória depende de como os processos são criados e gerenciados. Essa prática ajuda a ver o livro como um sistema integrado, não como temas soltos.
+
+Seção 6 — Pontos de Atenção
+O tema mais difícil do livro é gerenciamento de memória, especialmente os conceitos de paginação e segmentação. Eles parecem abstratos porque se tratam de formas que o sistema operacional usa para organizar a memória do computador de forma que não é visível para o usuário. Quando parecer confuso, desenhe no papel como a memória é dividida e como cada processo usa uma parte dela. Não tente entender tudo de uma vez — absorva um conceito por vez.
+Outro tema que costuma confundir muito são deadlocks. O conceito parece simples na superfície, mas entender por que eles acontecem e como evitá-los exige raciocínio mais cuidadoso. Quando chegar nessa parte, pare e tente criar um exemplo próprio de situação onde um deadlock poderia acontecer. Criar seu próprio exemplo é muito mais eficaz do que apenas reler a explicação do livro.
+O escalonamento de CPU também merecem atenção, pois o livro apresenta vários algoritmos diferentes para esse tema. É muito fácil misturar um com o outro. Use a tabela de comparação que criou durante a leitura para manter cada algoritmo separado. Quando sentir que dois algoritmos parecem iguais, volte à tabela e compare as diferenças que você mesmo anotou.
+Por fim, os capítulos sobre sistemas de arquivos apresentam vários tipos de estruturas internas e pode parecer muita informação de uma vez. Não tente reter todos os detalhes. Foque em entender por que cada estrutura existe e qual problema ela resolve — isso é mais importante do que lembrar todos os detalhes técnicos.
+
+Seção 7 — Revisão
+Após terminar o livro, reserve três dias para revisar. Não releia o texto inteiro.
+No primeiro dia, releia os resumos que escreveu ao final de cada capítulo. Para cada tema, tente lembrar sem ajuda qual problema ele resolve dentro de um sistema operacional e como ele se conecta aos temas anteriores. Anote os pontos onde você travou.
+No segundo dia, releia as tabelas de comparação e os desenhos que criou durante a leitura. Use esses materiais para responder por escrito as seguintes perguntas: Quais são os temas mais importantes de um sistema operacional e por que eles existem? Como o escalonamento de CPU, o gerenciamento de memória e os processos se relacionam entre si? Qual foi o tema mais difícil para você e por que?
+No terceiro dia, releia o glossário que criou durante a leitura e veja se todas as definições ainda estão corretas e completas. Para os pontos onde você travou nos dias anteriores, volte apenas ao capítulo específico e releia apenas a parte mais central da explicação — não recomece do início. Se os conceitos estiverem mais claros agora, a revisão foi bem feita.
